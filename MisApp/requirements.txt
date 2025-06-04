@@ -1,0 +1,55 @@
+# MIS Smart Assistant Python Dependencies
+
+# Core dependencies
+PyQt5>=5.15.4
+numpy>=1.21.0
+pyserial>=3.5
+psutil>=5.9.0
+pytz>=2021.1
+
+# Bluetooth support
+pybluez2>=0.1.5; platform_system != "Windows"
+bleak>=0.14.0
+PyObjC==8.5; platform_system == "Darwin"  # Only for macOS
+
+# Text-to-speech and speech recognition
+gTTS>=2.2.3
+pygame>=2.0.1
+SpeechRecognition>=3.8.1
+pyaudio>=0.2.11
+pyttsx3>=2.90
+pydub>=0.25.1
+
+# API clients
+google-generativeai>=0.3.1
+requests>=2.25.1
+
+# YouTube and media handling
+pytube>=12.1.0
+yt-dlp>=2023.3.4
+pafy>=0.5.5
+youtube-dl>=2021.12.17
+google-api-python-client>=2.0.0
+google-auth>=1.28.0
+mutagen>=1.45.1
+
+# Weather data
+pyowm>=3.2.0
+PyQtWebEngine>=5.15.4
+
+# Computer Vision (for Smart Vision feature)
+opencv-python>=4.5.0
+pyzbar>=0.1.9  # For QR code scanning
+
+# Utilities
+python-dateutil>=2.8.1
+qrcode==7.4.2
+httpx>=0.22.0
+pillow>=8.2.0  # Needed for qrcode image generation
+
+# Build tools (for creating executable)
+pyinstaller>=5.0.0
+pillow>=8.2.0  # For icon conversion and image processing
+
+# Required Arduino libraries (install via Arduino IDE Library Manager):
+# - LiquidCrystal_I2C - For LCD display
