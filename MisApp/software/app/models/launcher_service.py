@@ -25,8 +25,7 @@ class LauncherService:
             'shopee': 'https://shopee.vn',
             'tiki': 'https://tiki.vn',
             'lazada': 'https://www.lazada.vn',
-            'zalo': 'https://chat.zalo.me',
-            'ued': 'https://qlht.ued.udn.vn/sinhvien',
+            'quản lý học tập': 'https://qlht.ued.udn.vn/sinhvien',
             'tiktok': 'https://www.tiktok.com',
             'chatgpt': 'https://chat.openai.com',
             'grok': 'https://grok.com/',
@@ -36,18 +35,21 @@ class LauncherService:
         }
         self.common_apps = {
             'notepad': 'notepad.exe',
-            'teams': 'Teams.exe',
-            'calculator': 'calc.exe',
-            'explorer': 'explorer.exe',
-            'paint': 'mspaint.exe',
-            'wordpad': 'wordpad.exe',
-            'terminal': 'cmd.exe',
-            'powershell': 'powershell.exe',
-            'control panel': 'control.exe',
-            'task manager': 'taskmgr.exe',
-            'word': 'winword.exe',
-            'excel': 'excel.exe',
-            'powerpoint': 'powerpnt.exe',
+            'vscode': r'C:\Users\Acer Predator\AppData\Local\Programs\Microsoft VS Code\Code.exe',
+            'notion': r'C:\Users\Acer Predator\AppData\Local\Programs\Notion\Notion.exe',
+            'spotify': r'C:\Users\Acer Predator\AppData\Roaming\Spotify\Spotify.exe',
+            'Cốc Cốc': r'C:\Program Files\CocCoc\Browser\Application\browser.exe',
+            'zalo': r'C:\Users\Acer Predator\AppData\Local\Programs\Zalo\Zalo.exe',
+            'chrome': r'C:\Program Files\Google\Chrome\Application\chrome.exe',
+            'teams': r'C:\Users\Acer Predator\AppData\Local\Microsoft\Teams\Update.exe',
+            'explorer': r'C:\Windows\explorer.exe',
+            'terminal': r'C:\Windows\System32\cmd.exe',
+            'powershell': r'%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe',
+            'task manager': r'C:\Windows\System32\Taskmgr.exe',
+            'word': r'C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE',
+            'excel': r'C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE',
+            'powerpoint': r'C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.EXE',
+            'trợ lý ảo': r'D:\Workspace\iot\FinalReportIoT\dist\MIS_Assistant\MIS_Assistant.exe'
         }
         logger.info("Launcher service initialized")
     

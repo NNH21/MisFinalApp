@@ -2663,7 +2663,7 @@ class TimeWidget(QWidget):
             # Format as requested: Date: DD/MM/YYYY \n Time: HH:MM:SS
             date_str = now.strftime("%d/%m/%Y")
             time_str = now.strftime("%H:%M:%S")
-            display_text = f"Date: {date_str}\nTime: {time_str}"
+            display_text = f"Time: {time_str}\nDate: {date_str}"
             
             # Send to LCD
             lcd_service.set_display_text(display_text)
